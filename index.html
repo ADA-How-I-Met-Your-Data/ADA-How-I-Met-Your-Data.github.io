@@ -1,87 +1,633 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <!-- Required meta tags -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Grayscale - Start Bootstrap Theme</title>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
 
   </head>
-  <body>
-    <div class="container">
-      <div class="jumbotron">
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Analysing Success</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Abstract</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">Results</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#signup">Conclusion</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <h1 class="mx-auto my-0 text-uppercase">Analysing Success</h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">Analysis of Common Patterns among Successful GitHub Projects.</h2>
+          <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section text-center">
+      <div class="container">
         <div class="row">
-          <div class="col-sm-12">
-            <div style="display: flex; justify-content: center;">
-              <img src="images/dlab.svg" style="width: 100px; height: 100px;"/>
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-white mb-4">Abstract</h2>
+            <p class="text-white-50"> 
+              Open source projects are the <span class="focus"> backbone of today's technology </span>. We find them in programming languages that are at the core of any software (e.g. Luna or Rust), frameworks that shape the web (e.g. Laravel, React or Angular), toolkits that help scientists handle and analyse data (e.g. numpy, pandas) or development tools used by all software teams around the world (e.g. git), to name a few examples.
+            </p>
+
+<div class="container2">
+    <a class="item2" href="https://github.com/pandas-dev/pandas" target="_blank"><div class="img-container"><img src="https://avatars.githubusercontent.com/pandas-dev?s=96"></div><figcaption>Pandas</figcaption></a>
+    <a class="item2" href="https://github.com/Microsoft/CNTK" target="_blank"><div class="img-container"><img src="https://static.nvidiagrid.net/ngc/containers/cntk-logo-light.png"></div><figcaption>CNTK</figcaption></a>
+    <a class="item2" href="https://github.com/caffe2/caffe2" target="_blank"><div class="img-container"><img src="https://res-1.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1504807233/y8lfjjgi3h5t87bnvd5o.png"></div><figcaption>Caffe2</figcaption></a>
+    <a class="item2" href="https://github.com/apache/spark" target="_blank"><div class="img-container"><img src="https://res-5.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1496771949/h5skjf0tcaaqxdoejn1n.png"></div><figcaption>Spark</figcaption></a>
+    <a class="item2" href="https://github.com/rust-lang/rust" target="_blank"><div class="img-container"><img src="https://www.rust-lang.org/static/images/rust-logo-blk.svg"></div><figcaption>Rust</figcaption></a>
+    <a class="item2" href="https://github.com/apache/mesos" target="_blank"><div class="img-container"><img src="https://res-1.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1502454510/rgd4cbz9wy7luhebfagw.png"></div><figcaption>Mesos</figcaption></a>
+    <a class="item2" href="https://github.com/tensorflow/tensorflow" target="_blank"><div class="img-container"><img src="https://cdn-images-1.medium.com/max/672/1*cKG1LJvVTaWqSkYSyVqtsQ.png"></div><figcaption>Tensorflow</figcaption></a>
+    <a class="item2" href="https://github.com/pytorch/pytorch" target="_blank"><div class="img-container"><img src="https://static.nvidiagrid.net/ngc/containers/pytorch-logo-light.png"></div><figcaption>PyTorch</figcaption></a>
+    <a class="item2" href="https://github.com/NervJS/nerv" target="_blank"><div class="img-container"><img src="https://camo.githubusercontent.com/3e1b76e514b895760055987f164ce6c95935a3aa/687474703a2f2f73746f726167652e333630627579696d672e636f6d2f6d74642f686f6d652f6c6f676f2d3278313531333833373932363730372e706e67"></div><figcaption>NervJS</figcaption></a>
+    <a class="item2" href="https://github.com/vuejs/vue" target="_blank"><div class="img-container"><img src="https://silentbedlam.gallerycdn.vsassets.io/extensions/silentbedlam/vuejs-jquery-bootstrapprojecttemplate/1.0/1491418503089/257278/1/thumbnail.png"></div><figcaption>VueJS</figcaption></a>
+    <a class="item2" href="https://github.com/apache-incubator/superset" target="_blank"><div class="img-container"><img src="https://cloud.githubusercontent.com/assets/130878/20946612/49a8a25c-bbc0-11e6-8314-10bef902af51.png"></div><figcaption>Superset</figcaption></a>
+    <a class="item2" href="https://github.com/bitcoin/bitcoin" target="_blank"><div class="img-container"><img src="https://en.bitcoin.it/w/images/en/2/29/BC_Logo_.png"></div><figcaption>Bitcoin</figcaption></a>
+    <a class="item2" href="https://github.com/numpy/numpy" target="_blank"><div class="img-container"><img src="https://a.fsdn.com/allura/p/numpy/icon?1413811719?&w=90"></div><figcaption>Numpy</figcaption></a>
+    <a class="item2" href="https://github.com/curl/curl" target="_blank"><div class="img-container"><img src="https://curl.haxx.se/logo/curl-logo.svg"></div><figcaption>Curl</figcaption></a>
+    <a class="item2" href="https://github.com/luna/luna" target="_blank"><div class="img-container"><img src="https://www.luna-lang.org/assets/img/logo50.svg"></div><figcaption>Luna</figcaption></a>
+    <a class="item2" href="https://github.com/libgit2/libgit2" target="_blank"><div class="img-container"><img src="https://libgit2.org/images/libgit2/logo@2x.png"></div><figcaption>Libgit2</figcaption></a>
+    <a class="item2" href="https://github.com/laravel/laravel" target="_blank"><div class="img-container"><img src="https://cdn-images-1.medium.com/max/1600/1*plbC7qj2MqFjWTwK3qOBUQ.png"></div><figcaption>Laravel</figcaption></a>
+    <a class="item2" href="https://github.com/scikit-learn/scikit-learn" target="_blank"><div class="img-container"><img src="https://avatars-03.gitter.im/group/iv/3/57542cd7c43b8c60197770d2"></div><figcaption>Scikit</figcaption></a>
+    <a class="item2" href="https://github.com/angular/angular" target="_blank"><div class="img-container"><img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/300/square_256/angular2.png"></div><figcaption>Angular</figcaption></a>
+    <a class="item2" href="https://github.com/pallets/flask" target="_blank"><div class="img-container"><img src="http://flaskmc.org/assets/images/linkBar/contribute.png"></div><figcaption>Flask</figcaption></a>
+    <a class="item2" href="https://github.com/facebook/react" target="_blank"><div class="img-container"><img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-128.png"></div><figcaption>React</figcaption></a>
+    <a class="item2" href="https://github.com/antirez/redis" target="_blank"><div class="img-container"><img src="https://cdn4.iconfinder.com/data/icons/redis-2/1451/Untitled-2-128.png"></div><figcaption>Redis</figcaption></a>
+    <a class="item2" href="https://github.com/git/git" target="_blank"><div class="img-container"><img src="https://d1eq8vvyuam4eq.cloudfront.net/tutorials/git/logo-git.svg?ver=1540825830"></div><figcaption>Git</figcaption></a>
+    <a class="item2" href="https://github.com/keras-team/keras" target="_blank"><div class="img-container"><img src="https://avatars.githubusercontent.com/keras-team?s=128"></div><figcaption>Keras</figcaption></a>
+</div>
+            <p class="text-white-50"><br><span class="focus"> Do successful open source projects have common patterns? </span> <br> <br> Through this project, we hope to <span class="focus"> gain some insights </span> into what contributes to the success of an open source project. This might allow us to <span class="focus"> identify common patterns among successful projects </span>, and formulate some guidelines that <span class="focus"> might be beneficial </span> to other projects' success.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section bg-light">
+      <div class="container">
+
+        <!-- Question 6.1 -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0 float-left" src="img/p1.png" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>How many commits are there for each repository?</h4>
+              <p class="text-black-50 mb-0">The above graph represents the number of commits per project. It can be noted that there is an exponential trend for the distribution. This illustrates the difference in size that exists between the projects. This is important to keep in mind for any later analysis step for valid conclusions to be drawn. <br> <span style="color:red">**Note:**</span> due to this difference in size, proportions (with respect to the attribute in question or to the project size) have to be used for the analysis.</p>
             </div>
-            <h1 align="center">GitHub Pages</h1> 
-            <p align="center">Setting up your own GitHub page from scratch (or migrating from an existing website) is pretty easy!</p>
           </div>
         </div>
+
+        <!-- Question 6.2 -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-3 float-right" src="img/p2.png" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5 order-lg-first">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Are authors and committers the same? If not, how do we explain the difference? Can this be attributed to a specific role such as "Supervising </h4>
+              <p class="text-black-50 mb-0">Analyzing the distribution and the statistical parameters of the committer count and author count per project, it can be noticed that there is some difference, although it is minimal. (Note that the exponential distribution is still present so the size must still be taken into consideration.)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 6.3 -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0 float-left" src="img/p3.png" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>What can we learn from the frequency of the commits?</h4>
+              <p class="text-black-50 mb-0">Considering the results of the normalized mean time intervals, it can be seen that the previously discussed frequency interval (less than 1 day) remains valid. In fact, **a new range can be obtained (from 0.5 minute and up to 1.6 hours per commit per line of committed code)**. <span style="background:lightgreen">In short, these results provide **another common feature** among these **successful projects** and that is in relation to the **frequency of the commmits**. On average, a commit is made every 15 minutes per line of code. This represents the frequency/activity common to these successful project.</span> </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Question 6.4 - Day of the week-->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-3 float-right" src="img/todo.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5 order-lg-first">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Are there time patterns to when contributors submit their changes? <br> <br> Day of the week?</h4>
+              <p class="text-black-50 mb-0">From the above plots, it can be seen that **the majority of projects are most active during weekdays, with a sharp drop during the weekends**. However, there are certain exceptions to this rule: `pandas-dev/pandas`, `numpy/numpy`, `pallets/flask`. This makes sense, as most people rest during the weekends.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Question 6.4 - Hour of the day -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0 float-left" src="img/todo.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Hour of the day? </h4>
+              <p class="text-black-50 mb-0">From the above graph, it can be noticed that **all projects follow a similar daily time distribution**, where the activity increases to **reach a peak, then decreases constantly and hits a minimum for 6 to 8 hours** or so. <br> <br> This corresponds to **most of the commits happening during the working period**, with the least activity happening during the evening and at night. This makes sense for the following reasons: 1. For **team-driven projects**, a lot of the work will be happening during the **work hours** 2. For **other projects** and contributors in general, the contributors will also be following **daily schedules** (i.e. they sleep at night). <br> <br> While projects will have contributors from all around the world, the majority is likely to be from specific countries (e.g. China, India and the US are respectively ranked 1st, 2nd and 3rd in terms of Internet users, [source](https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Internet_users)) or specific to that project (e.g. `NervJS/nerv` seems to be driven by a Chinese community).</span> </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Question 6.5 -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-3 float-right" src="img/todo.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5 order-lg-first">
+            <div class="featured-text text-center text-lg-left">
+              <h4> <span style='color:green'> Are contributors part of certain communities/teams (e.g. real-life development teams)? </span></h4>
+              <p class="text-black-50 mb-0">The projects that do not show as sharp a decline are, for example: pandas-dev/pandas, numpy/numpy and pallets/flask as mentioned above, as well as git/git, keras-team/keras, laravel/laravel rust-lang/rust and scikit-learn/scitkit-learn. Except Rust (which is sponsored by mozilla), these are all community-driven (although some might be sponsored). Keras also recently started to be officially backed by Google (source), although the project has existed since early 2015, so the mean showing this result also makes sense.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 6.6 - General part (split into multiple subparts) -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> Is there a certain roles distribution among contributors to the project? For example, do successful projects have people who focus on refactoring code, adding features or fixing bugs? </span> </h4>
+              <p class="text-black-50 mb-0">In order to try to answer this question, features from the commits data will be analyzed to identify the **presence of a role in the projects** in question. **The features chosen relate to the function of the role** in question. </p>
+            </div>
+        </div>
+
+
+        <!-- Question 6.6 - Role: Refactoring Code -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0 float-left" src="img/todo.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> Role: Refactoring Code </span> </h4>
+              <p class="text-black-50 mb-0">This graph shows that the percentage of authors with a tendency to remove code is around 6.5% for the 24 projects in question.<span style="background:lightgreen">Thus, these results provide **another common feature** among these **successful projects** and that is in relation to the **presence of a role among the authors**. This role being **refactoring code**, which on average is performed by 6.5% of the authors responsible for the given project.</span> </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Question 6.6 - Role: Dealing with issues / Bugs -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-3 float-right" src="img/todo.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5 order-lg-first">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> Role: Dealing with issues / Bugs </span> </h4>
+              <p class="text-black-50 mb-0">Considering the obtained results, on **average** for all 24 projects, **55% (stddev=10%)** of authors are involved with dealing with issues / bugs. This shows the importance of dealing with issues and can be related to the success of a project. Furthermore, it shows that the role of dealing with issues is distributed over a wide range of the authors involved. This makes sense because each author can be responsible for a portion of the project, or some authors focus on issues that affect them personally. <span style="background:lightgreen">Thus, these results provide **another common feature** among these **successful projects** and that is in relation to the **presence of a role among the authors**. This role being **dealing with issues / bugs**, which on average is performed by 55% of the authors responsible for the given project.</span> </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Question 6.6 - Role: Dealing with Merges -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0 float-left" src="img/todo.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> Role: Dealing with Merges </span> </h4>
+              <p class="text-black-50 mb-0">Considering the obtained results: on **average** for all 24 projects, **19% (stddev=11%)** of authors are involved with dealing with merges. (Note that `luna` being an outlier is not surprising due to the small number of authors it has, as explained above.) <span style="background:lightgreen">Thus, these results provide **another common feature** among these **successful projects** and that is in relation to the **presence of a role among the authors**. This role being **dealing with merges**, which on average is performed by 19% of the authors responsible for the given project.</span> </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Question 6.7 - Role: dealing with the issues reported by the community (on GitHub) -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-3 float-right" src="img/todo.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5 order-lg-first">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> Role: dealing with the issues reported by the community (on GitHub) </span> </h4>
+              <p class="text-black-50 mb-0">Considering the obtained results: on **average** for all 24 projects, **a couple of users (mean=3, stddev=1.3) close a sizeable amount of issues**.<span style="background:lightgreen">Thus, these results provide **another common feature** among these **successful projects** and that is in relation to the **presence of a role among the authors**. This role being **dealing with the issues reported by the community** (on GitHub). On average, a few users per project (around 3) are responsible for this.</span> </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Question 6 / 7 - General Introduction -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> What other features can be seen? </span> </h4>
+              <p class="text-black-50 mb-0"> Try to formulate a way to present the different features that are common among the projects (response time and other chinenigans) </p>
+            </div>
+        </div>
+
+
+
+        <!-- Common Feature: Commit Summary length -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0 float-left" src="img/todo.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> Common Feature: Commit Summary length </span> </h4>
+              <p class="text-black-50 mb-0"><span style="background:lightgreen">In short, these results provide **another common feature** among these **successful projects** and that is in relation to the **percent of commit summary length round 50 characters**. On average, 44% (stddev = 6.6%) of commit summary length has a length around 50 characters.</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Common Feature: Dealing with closed Issues -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-3 float-right" src="img/todo.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5 order-lg-first">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> Common Feature: Dealing with closed Issues </span> </h4>
+              <p class="text-black-50 mb-0">Considering the obtained results: on **average** for all 24 projects, **87% (stddev=11%)** of issues are closed.<span style="background:lightgreen">Thus, these results provide **another common feature** among these **successful projects** and that is in relation to **dealing with closed issues**. On average, 87% of issues are closed, which is a good indicator of a project's activity.  This relates to the interactiveness of the project with its community, including bug reports/feature requests (issues) and community contributions (pull requests) solving bugs/adding features.  On one hand, this directly enhances the project by solving present issues or adding features. On the other hand, this indirectly incentivizes the community to keep on contributing, either in the form of reporting issues or sending pull requests.</span> </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Common Feature: Average Issue resolution time -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0 float-left" src="img/todo.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> Common Feature: Average Issue resolution time </span> </h4>
+              <p class="text-black-50 mb-0">Considering the obtained results: on **average** for all 24 projects, issues take **57 days (stddev=40)** to be resolved. This is highly variable from one project to another, with some projects being much faster in resolving issues (a couple of weeks), and other beings much slower (a few months). The big range of the resolution time is likely due to the nature of the project and its issues, some projects/issues being inherently more complex than others. This means that issues require more time to properly debug and fix. Still, the projects are responsive in most cases, with the 2nd quartile (50%) of average issue resolution time being a couple of months on average. This is acceptable considering the amount of time required to inquire about the issue, debug it, fix it and test the final outcome. <span style="background:lightgreen">Thus, these results provide **another common feature** among these **successful projects** and that is in relation to **the average time required to resolve issues**. On average, most issues are resolved within a couple of months, which is a good indicator of a project's activity and responsiveness.</span></p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Common Feature: Number of Users who handle Issues -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-3 float-right" src="img/todo.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5 order-lg-first">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> Common Feature: Number of Users who handle Issues </span> </h4>
+              <p class="text-black-50 mb-0">Considering the obtained results: on **average** for all 24 projects, **a couple of users (mean=3, stddev=1.3) close a sizeable amount of issues**. <span style="background:lightgreen">Thus, these results provide **another common feature** among these **successful projects** and that is in relation to the **presence of a role among the authors**. This role being **dealing with the issues reported by the community** (on GitHub). On average, a few users per project (around 3) are responsible for this.</span></span></p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <!-- Question 8 - General Introduction -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> Can sentiment analysis on the commit messages / Issues provide any insights? </span> </h4>
+              <p class="text-black-50 mb-0"> In order to obtain insights relating to the communication between the team members, as well as with the community, three different data features were analyzed: 1. Git commit messages for each project. 2. The body of each project's GitHub issues. 3. The comments of each GitHub issue per project. </p>
+            </div>
+        </div>
+
+
+        <!-- Sentiment Analysis: Commit Messages -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0 float-left" src="img/todo.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> Sentiment Analysis: Commit Messages </span> </h4>
+              <p class="text-black-50 mb-0">Analyzing commit messages provides insight into inter-project members communication, since commit messages are about explaining what each patch does, and are used to describe it for the other project members and for reference (e.g. when checking the history).</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Sentiment Analysis: Body of Git Issues -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-3 float-right" src="img/todo.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5 order-lg-first">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> Sentiment Analysis: Body of Git Issues </span> </h4>
+              <p class="text-black-50 mb-0">Analyzing the body of GitHub issues provides insight into the community's tone towards a project, since issues are mainly opened by the community (i.e. users) to report bugs, request features or offer patches, and the body of an issue is where all of this is described.</span></span></p>
+            </div>
+          </div>
+        </div>
+
+
+       <!-- Sentiment Analysis: Git Issue Comments -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0 float-left" src="img/todo.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> Sentiment Analysis: Git Issue Comments </span> </h4>
+              <p class="text-black-50 mb-0">The results of the sentiment analysis in commit messages, GitHub issues and comments show that the neural sentiment is highly dominating. But there are still some noticeable differences between these three aspects. The commit messages are mostly full of neutral sentiments (on average ~97.5%). This is expected since commit messages have a descriptive and informative function (to provide concisely and objectively the commit's purpose). While the GitHub issues also have mostly neutral sentiments (on average ~99.5%), the amount of positive sentiments on GitHub (on average ~4.6% with stddev ~1.5%) is significantly higher than the negative ones (on average ~0.5% with stddev ~0.5%). This result could indicate a more positive and motivated community that is answering the issues, which might be related to the success.<br> <br> <br> <span style="background:lightgreen">Thus, these results provide **another common feature** among these **successful projects** and that is in relation to the **sentiment in their online communication**. Generally the neutral sentiment is highly dominating in commit messages and GitHub issues; when replying to the GitHub issues in the form of **GitHub comments**, the **sentiment tends to be more positive than negative (~4.6% vs ~0.5%)**.</span> The type of communication seems to play an important role in these community-driven project. An objective (neutral) and non-negative tone helps enhance the communication between the community and project members, as well as between project developers themselves. This seems to be a common feature for all of these successful projects.</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Question 9 - Community Analysis (stackOverflow / Reddit) -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> Can we relate the success / popularity to a responsive / helpful community (e.g. StackOverflow / Reddit subreddits)? </span> </h4>
+              <p class="text-black-50 mb-0"> Several **online community** are available for **developers to learn and share their programming knowledge**. The aim of this portion of the project is to try and **access whether the success** of a project can be related to how **responsive / helpful its online community is**. In this section, **two** main communities were chosen to be analyzed, these being **StackOverflow** and **Reddit** (subreddits). </p>
+            </div>
+        </div>
+
+
+        <!-- Popularity on StackOverflow -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-3 float-right" src="img/todo.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5 order-lg-first">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> Popularity on StackOverflow  </span> </h4>
+              <p class="text-black-50 mb-0">The obtained result solidifies the point made by the first question (refer to 6.1) that **some projects are more popular than others**. This also further illustrates the need to normalize in order to be able to compare with respect to certain features, something done throughout the project.</span></p>
+            </div>
+          </div>
+        </div>
+
+
+       <!-- percentage of resolved questions per project -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0 float-left" src="img/todo.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> Percentage of resolved questions per project </span> </h4>
+              <p class="text-black-50 mb-0">Considering the obtained results: on **average** for these projects, **42% (stddev=13%)** of StackOverflow questions have an accepted answer. <span style="background:lightgreen">These results provide **another common feature** among these **successful projects** and that is in relation to their community **dealing with StackOverflow questions**. On average, 42% of questions are resolved, which is a relatively good indicator of a project's activity for two reasons:</span> 1. The project is popular enough to have enough people asking questions about it, which leads to the creation of a tag about it on StackOverflow in the first place. 2. The community is active and resposive enough to answer around half of the questions in a satisfactory manner. (Other questions might also be answered, but the poster didn't select an accepted answer in those cases.)</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Average Rsolution Time of StackOverflow Questions -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-3 float-right" src="img/todo.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5 order-lg-first">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> Average Rsolution Time of StackOverflow Questions  </span> </h4>
+              <p class="text-black-50 mb-0">Considering the obtained results: on **average** for these projects, it takes **216 hours (stddev=112)** for a StackOverflow question to receive a satisfactory answer (meaning it will be marked as an accepted answer). <span style="background:lightgreen">These results provide **another common feature** among these **successful projects** and that is in relation to their community **dealing with StackOverflow questions**. On average, it takes around 9 days for a question to receive an answer that is marked as accepted. </span> <br> <br> **It can be concluded that each community is different when it comes to its size and average responsitivity for each project, but all are generally reasonably responsive.**</p>
+            </div>
+          </div>
+        </div>
+
+
+       <!-- Popularity On Reddit -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0 float-left" src="img/todo.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> Popularity On Reddit </span> </h4>
+              <p class="text-black-50 mb-0">The obtained result solidifies the point made by the first question (refer to 6.1) that **some projects are more popular than others**. This also further illustrates the need to normalize in order to be able to compare with respect to certain features, something done throughout the project. While some discrepencies can be observered, (e.g. `rust` is really popular on Reddit while `angular` isn't as popular as expected), it's safe to say all of them are still quite popular. The only exceptions are `luna` and `nervjs` (same explanation as above), as well as `mesos` (which was released in July 2016, so we only have around 5 months of data for it) and `libgit2` (which simply doesn't seem to generate much discussion on Reddit; after all, Reddit is more aimed towards discussion rather than support).</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Popularity Change on Reddit -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-3 float-right" src="img/todo.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5 order-lg-first">
+            <div class="featured-text text-center text-lg-left">
+              <h4><span style='color:green'> Popularity Change on Reddit  </span> </h4>
+              <p class="text-black-50 mb-0">ADDD</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Question 6.8 - Sentiment Analysis -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+             <iframe src="img/number_of_commits.html" height=700 width=1500> </iframe> 
+        </div>
+
+        <!-- Question 6.8 - Sentiment Analysis -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+             <iframe src="img/prop_diff_committer_author.html" height=700 width=1500> </iframe> 
+        </div>
+
+        <!-- Question 6.8 - Sentiment Analysis -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+             <iframe src="img/committer_author_count.html" height=700 width=1500> </iframe> 
+        </div>
+
+        <!-- Question 6.9 - Reddict Populaarity evolution per project per year -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+             <iframe src="img/reddit_develop.html" height=700 width=1500> </iframe> 
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Project One Row -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Misty</h4>
+                  <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Two Row -->
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 class="text-white">Mountains</h4>
+                  <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                  <hr class="d-none d-lg-block mb-0 mr-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="jumbotron">
-            <h1 align="middle">Step 1</h1>
-            <hr>
-            <p align="middle">
-              <a class="btn btn-success" href="https://github.com/login" target="_blank">Sign in on GitHub</a>
-            </p>
-            <p align="middle">
-              If you've already signed in, you can skip this step.
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="jumbotron">
-            <h1 align="middle">Step 2</h1>
-            <hr>
-            <p align="middle">
-              <a class="btn btn-primary" href="https://github.com/account/organizations/new" target="_blank">Create an organization</a>
-            </p>
-            <p align="middle">
-              You can give any name to your organization (but try to keep it nice for other people!)
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="jumbotron">
-            <h1 align="middle">Step 3</h1>
-            <hr>
-            <p align="middle">
-              <a class="btn btn-danger" href="https://github.com/new" target="_blank">Create a new repository</a>
-            </p>
-            <p align="middle">
-              Set the <i><b>owner</b></i> to your organization and the <i><b>name</b></i> to <u>[orgname].github.io</u> (replacing <i>[orgname]</i> with the name of the organization itself).
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="jumbotron">
+    </section>
+
+    <!-- Signup Section -->
+    <section id="signup" class="signup-section">
+      <div class="container">
         <div class="row">
-          <div class="col-sm-12">
-            <h1 align="center">Step 4</h1> 
-            <p align="middle">
-              Now that you've setup your repository, try pushing <a href="assets/sample.zip" target="_blank">this zip's contents</a> to it to test your setup!
-            </p>
-            <hr>
-            <h1 align="center">Questions?</h1> 
-            <p align="middle">
-              <a class="btn btn-success" href="https://pages.github.com/" target="_blank">GitHub's Instructions</a>&nbsp;<a class="btn btn-primary" href="https://icmattermost.epfl.ch/cs-401/" target="_blank">Mattermost</a>
-            </p>
+          <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+            <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+            <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+
+            <form class="form-inline d-flex">
+              <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+              <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+            </form>
+
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section bg-black">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Address</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Email</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">
+                  <a href="#">hello@yourdomain.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Phone</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">+1 (555) 902-8832</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="social d-flex justify-content-center">
+          <a href="#" class="mx-2">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="mx-2">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="mx-2">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50">
+      <div class="container">
+        Copyright &copy; Your Website 2018
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
 
   </body>
+
 </html>
