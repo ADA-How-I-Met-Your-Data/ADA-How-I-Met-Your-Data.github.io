@@ -1,0 +1,61 @@
+<head>
+    <style>
+.dropdown-wrapper > div {
+    border: 1px solid;
+}
+
+.dropdown-wrapper-child {
+    margin: auto;
+    display: flex;
+}
+
+.dropdown-wrapper-child div {
+    flex-grow: 1;
+    width: 0;
+}
+
+.dropdown-wrapper {
+    display: inline-block;
+}
+    </style
+</head>
+
+<div class="dropdown-wrapper">
+    <select class="dropdown-wrapper-child" id="ProjectsDropdown">
+        <option value="hourofday/angular.png">Angular</option>
+        <option value="hourofday/bitcoin.png">Bitcoin</option>
+        <option value="hourofday/caffe2.png">Caffe2</option>
+        <option value="hourofday/CNTK.png">CNTK</option>
+        <option value="hourofday/curl.png">Curl</option>
+        <option value="hourofday/flask.png">Flask</option>
+        <option value="hourofday/git.png">Git</option>
+        <option value="hourofday/keras.png">Keras</option>
+        <option value="hourofday/laravel.png">Laravel</option>
+        <option value="hourofday/libgit2.png">Libgit2</option>
+        <option value="hourofday/luna.png">Luna</option>
+        <option value="hourofday/mesos.png">Mesos</option>
+        <option value="hourofday/nerv.png">Nerv</option>
+        <option value="hourofday/numpy.png">Numpy</option>
+        <option value="hourofday/pandas.png">Pandas</option>
+        <option value="hourofday/pytorch.png">PyTorch</option>
+        <option value="hourofday/react.png">React</option>
+        <option value="hourofday/redis.png">Redis</option>
+        <option value="hourofday/rust.png">Rust</option>
+        <option value="hourofday/scikit-learn.png">Scikit-Learn</option>
+        <option value="hourofday/spark.png">Spark</option>
+        <option value="hourofday/superset.png">Superset</option>
+        <option value="hourofday/tensorflow.png">Tensorflow</option>
+        <option value="hourofday/vue.png">VueJS</option>
+    </select>
+    <img id="image" src="hourofday/angular.png" />
+</div>
+
+<script>
+    function loadProjectImage() {
+        var img = document.getElementById("image");
+        img.src = this.value;
+        return false;
+    }
+document.getElementById("ProjectsDropdown").onchange = loadProjectImage;
+</script>
+

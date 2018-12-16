@@ -1,0 +1,60 @@
+<head>
+    <style>
+.dropdown-wrapper > div {
+    border: 1px solid;
+}
+
+.dropdown-wrapper-child {
+    margin: auto;
+    display: flex;
+}
+
+.dropdown-wrapper-child div {
+    flex-grow: 1;
+    width: 0;
+}
+
+.dropdown-wrapper {
+    display: inline-block;
+}
+    </style
+</head>
+
+<div class="dropdown-wrapper">
+    <select class="dropdown-wrapper-child" id="ProjectsDropdown">
+        <option value="commitsbyemail/angular.png">Angular</option>
+        <option value="commitsbyemail/bitcoin.png">Bitcoin</option>
+        <option value="commitsbyemail/caffe2.png">Caffe2</option>
+        <option value="commitsbyemail/CNTK.png">CNTK</option>
+        <option value="commitsbyemail/curl.png">Curl</option>
+        <option value="commitsbyemail/flask.png">Flask</option>
+        <option value="commitsbyemail/git.png">Git</option>
+        <option value="commitsbyemail/keras.png">Keras</option>
+        <option value="commitsbyemail/laravel.png">Laravel</option>
+        <option value="commitsbyemail/libgit2.png">Libgit2</option>
+        <option value="commitsbyemail/luna.png">Luna</option>
+        <option value="commitsbyemail/mesos.png">Mesos</option>
+        <option value="commitsbyemail/nerv.png">Nerv</option>
+        <option value="commitsbyemail/numpy.png">Numpy</option>
+        <option value="commitsbyemail/pandas.png">Pandas</option>
+        <option value="commitsbyemail/pytorch.png">PyTorch</option>
+        <option value="commitsbyemail/react.png">React</option>
+        <option value="commitsbyemail/redis.png">Redis</option>
+        <option value="commitsbyemail/rust.png">Rust</option>
+        <option value="commitsbyemail/scikit-learn.png">Scikit-Learn</option>
+        <option value="commitsbyemail/spark.png">Spark</option>
+        <option value="commitsbyemail/superset.png">Superset</option>
+        <option value="commitsbyemail/tensorflow.png">Tensorflow</option>
+    </select>
+    <img id="image" src="commitsbyemail/angular.png" />
+</div>
+
+<script>
+    function loadProjectImage() {
+        var img = document.getElementById("image");
+        img.src = this.value;
+        return false;
+    }
+document.getElementById("ProjectsDropdown").onchange = loadProjectImage;
+</script>
+
